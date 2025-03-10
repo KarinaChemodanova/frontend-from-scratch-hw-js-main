@@ -9,5 +9,6 @@ let sum = 0
 let x = 1
 
 while (x < 20) {
-	if (x % 2 != 1) sum += x
+	if (x % 2 == 1) sum += x
+	x++
 }

@@ -9,4 +9,9 @@
 let factorial = 10
 let x = 1
 
-while (factorial) x *= factorial--
+while (factorial) {
+	x *= factorial
+	factorial--
+}
+
+console.log(factorial)
