@@ -6,12 +6,12 @@
 */
 
 // your code
-let factorial = 10
+let factorial = 1
 let x = 1
 
-while (factorial) {
-	x *= factorial
-	factorial--
+while (x < 10) {
+	x++
+	factorial *= x
 }
 
 console.log(factorial)
