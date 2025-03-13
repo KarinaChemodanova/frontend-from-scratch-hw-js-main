@@ -2,7 +2,7 @@
 // Результат присвойте переменной sum
 
 // your code
-let x = 1
+let x = 0
 let sum = 0
 while (x < 20) {
 	x++
