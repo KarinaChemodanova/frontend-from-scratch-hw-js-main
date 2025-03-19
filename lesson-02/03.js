@@ -5,5 +5,14 @@
  */
 
 const score = 70 // тестовое значение, можно изменять
-let grade
+let grade =
+	score <= 49
+		? 'F'
+		: score >= 50 && score <= 69
+		? 'D'
+		: score >= 70 && score <= 79
+		? 'C'
+		: score >= 80 && score <= 89
+		? 'B'
+		: 'A'
 // your code
