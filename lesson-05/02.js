@@ -43,5 +43,3 @@ function updateGallery(gall, name, info) {
 			gallery[name] = info
 		}
 }
-
-updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
