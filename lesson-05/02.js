@@ -30,9 +30,18 @@ console.log(gallery)
 */
 
 const gallery = {
-  'Mona Lisa': 'Leonardo da Vinci',
-  'Starry Night': 'Vincent van Gogh',
-  'The Scream': 'Edvard Munch',
+	'Mona Lisa': 'Leonardo da Vinci',
+	'Starry Night': 'Vincent van Gogh',
+	'The Scream': 'Edvard Munch',
 }
 
-function updateGallery() {}
+function updateGallery(gall, name, info) {
+	for (let key in gallery)
+		if (gall === 'gallery' || key === name) {
+			gallery[key] = info
+		} else {
+			gallery[name] = info
+		}
+}
+
+updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
